@@ -1,0 +1,21 @@
+#ferramenta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#ferramenta h1 {
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+
+#pProcessando {
+    color: aliceblue;
+}
+
+#fileInput, #fileCallInput,
+#pProcessando,
+#btn, #loader {
+    display: none;
+}

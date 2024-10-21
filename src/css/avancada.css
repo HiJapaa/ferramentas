@@ -1,0 +1,25 @@
+#ferramenta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#ferramenta h1 {
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+
+#fileInputDados,
+#fileInputSip,
+#fileInputCep,
+#fileInputVoz,
+#pProcessandoDados,
+#btnCriarArquivo,
+#btnDados, #loader {
+    display: none;
+}
+
+#pProcessandoDados {
+    color: aliceblue;
+}
